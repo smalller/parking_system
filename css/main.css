@@ -1,0 +1,379 @@
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/* 头部 */
+header {
+    height: 70px;
+    width: 100%;
+    min-width: 1226px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.head-nav {
+    height: 70px;
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.head-nav .logo {
+    float: left;
+    height: 70px;
+    width: 100px;
+    background: url(../img/logo.jpg) no-repeat 50% 50%;
+    background-size: 90%;
+}
+
+header .title {
+    line-height: 70px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #6abb30;
+}
+
+
+/* 右边个人信息 */
+.head-nav .user {
+    float: right;
+    width: 300px;
+    height: 70px;
+}
+
+.user li {
+    line-height: 70px;
+}
+
+.user span {
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #999;
+}
+
+.user span:hover {
+    color: #6abb30;
+}
+
+.user #shu {
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.user .logout {
+    display: block;
+    float: left;
+    color: #999;
+}
+
+.user .logout:hover {
+    color: #6abb30;
+}
+
+
+/* 主体部分 */
+.main-box {
+    width: 1000px;
+    background: #f2f3f4;
+    margin: 50px auto 0;
+    border-radius: 10px;
+}
+
+.main-box::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.main-box .main {
+    width: 1000px;
+    margin: 50px auto 0;
+    box-shadow: 0 20px 30px 0 rgba(7, 13, 28, 0.04);
+    border-radius: 5px;
+}
+
+/* 主体上边部分 */
+.main-box .main .top-container {
+    height: 200px;
+    width: 1000px;
+}
+
+.main-box .main .top-container ul li {
+    float: left;
+    height: 200px;
+    width: 30%;
+    margin: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.main-box .top-container .list1 {
+    background: #4ab776;
+}
+
+.main-box .top-container .list2 {
+    background: #58b9c9;
+}
+
+.main-box .top-container .list3 {
+    background: #f0cd4e;
+}
+
+
+
+
+
+
+
+/* 剩余停车位 */
+.main-box .top-container .list1 h3 {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.main-box .top-container .list1 div {
+    height: 120px;
+
+}
+
+.main-box .top-container .list1 span {
+    display: block;
+    font-size: 30px;
+    float: left;
+    width: 123px;
+    height: 120px;
+    margin: 0 30px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.main-box .top-container .list1 i {
+    display: block;
+    float: left;
+    font-size: 100px;
+    line-height: 120px;
+}
+
+
+/* 已停车总数量 */
+.main-box .top-container .list2 h3 {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.main-box .top-container .list2 div {
+    height: 120px;
+
+}
+
+.main-box .top-container .list2 span {
+    display: block;
+    font-size: 30px;
+    float: left;
+    margin: 0 30px;
+    width: 110px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.main-box .top-container .list2 i {
+    display: block;
+    float: left;
+    font-size: 90px;
+    line-height: 120px;
+}
+
+/* 已出库车辆总数量 */
+.main-box .top-container .list3 h3 {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.main-box .top-container .list3 div {
+    height: 120px;
+
+}
+
+.main-box .top-container .list3 span {
+    display: block;
+    font-size: 30px;
+    float: left;
+    margin: 0 30px;
+    width: 110px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.main-box .top-container .list3 i {
+    display: block;
+    float: left;
+    font-size: 90px;
+    line-height: 120px;
+}
+
+
+
+/* 下方盒子 */
+.main-box .bottom-container {
+    position: relative;
+    margin-top: 60px;
+    width: 1000px;
+}
+
+.main-box .bottom-container ul li {
+    width: 12.5%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 2px solid #999;
+}
+
+.main-box .bottom-container li i {
+    display: block;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    color: #6abb30;
+    text-align: center;
+}
+
+.main-box .bottom-container li span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    /* color: #999; */
+    margin-bottom: 10px;
+}
+
+.main-box .bottom-container li input {
+    display: block;
+    float: left;
+    outline: none;
+    border: none;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+
+/* 弹窗 */
+.alert-box {
+    display: none;
+    width: 600px;
+    position: absolute;
+    left: 200px;
+    background: #fff;
+    z-index: 3;
+    overflow: auto;
+}
+.alert-box input {
+    display: block;
+    height: 40px;
+    width: 320px;
+    border: 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    color: #999;
+    margin: 20px auto;   
+    padding-left: 15px;
+}
+.alert-box .submit {
+    height: 50px;
+    width: 260px;
+    background:#6abb30;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    display: block;
+    cursor: pointer;
+    margin: 50px auto;
+}
+
+/* 弹窗里的小叉叉按钮 */
+.alert-box span {
+    display: block;
+    cursor: pointer;
+    text-align: right;
+    line-height: 30px;
+    margin: 5px 10px 0 0;
+    font-size: 40px;
+    color: #999; 
+}
+
+.alert-box form span {
+    display: block;
+    float: left;
+    height: 25px;
+    width: 230px;
+    margin: 10px 0 10px 45px;
+    color: red;
+}
+
+.alert-box span:hover {
+    color: #ff8300;
+}
+
+/* 弹窗后的黑色板块 */
+.black-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1600px;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 2;
+    opacity: .6;
+}
+
+
+
+
+
+/* 底部 */
+footer {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    min-width: 1226px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #e6e6e6;
+}
